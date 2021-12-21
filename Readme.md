@@ -13,5 +13,9 @@
 `visualization.py` 输入任意两张图片绘制网络输出的匹配，匹配颜色为网络输出的匹配分数（越绿分数越高），`python visualization.py img0 img1 [-o output] [-m model]` 。
     
 `test_visualization.py` 输入单张图片，经过处理后得到图片对进行匹配，并将正确的匹配结果绘制为绿色，错误的绘制为红色，`python test_visualizatoin.py img [-o output] [-m model]`。
-    
+ 
+`draw_pic.py` 批量生成训练模型synthetic.pth和原始模型outdoor.pth的匹配图，用于写报告
+
+`cal_auc.py` 计算匹配的精准度和AUC值
+ 
 `utils.py` 用于绘制匹配图。
